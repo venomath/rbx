@@ -1052,7 +1052,7 @@ function farmFamily()
 end;
 
 function farmDivines()
-	while(_G.farmDivines and (not (tostring(game:GetService("Players").LocalPlayer.PlayerGui.UI.Frames.Divines.Main.Frames.Spin.Divine.Title.Text) == "Hades" or tostring(game:GetService("Players").LocalPlayer.PlayerGui.UI.Frames.Class.Main.Frames.Spin.Class.Class.Text) == "Buda"))) do
+	while(_G.farmDivines and (not (tostring(game:GetService("Players").LocalPlayer.PlayerGui.UI.Frames.Divines.Main.Frames.Spin.Divine.Title.Text) == "Hades" or tostring(game:GetService("Players").LocalPlayer.PlayerGui.UI.Frames.Divines.Main.Frames.Spin.Divine.Title.Text) == "Buda"))) do
 		print("Divines at start: ["..tostring(game:GetService("Players").LocalPlayer.PlayerGui.UI.Frames.Divines.Main.Frames.Spin.Divine.Title.Text).."]");
 		local args = {
 			[1] = "Divines",
